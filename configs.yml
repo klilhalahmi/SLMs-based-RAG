@@ -1,0 +1,10 @@
+# Names of the SLMs we want to use
+slm_models_names: ["Snowflake/snowflake-arctic-embed-m-v1.5", "liddlefish/privacy_embedding_rag_10k_base_12_final", "sentence-transformers/all-mpnet-base-v2"]
+# Names of the LLM we want to test them against
+llm_model_name: "dunzhang/stella_en_1.5B_v5"
+# Name of the datasets we want to test them on
+datasets_names: [scifact]
+# Output folder for all the results
+output_folder: "output"
+# Save the vector index of the dataset per model
+save_index: False
